@@ -6,8 +6,8 @@ public class Main {
     public static void main(String[] args) {
        task1 ();
        task2 ();
-       task3();
-       task 4();
+       task3 ();
+       task4 ();
 
     }
 
@@ -55,11 +55,14 @@ public class Main {
             suma += arr[i];
             sred = suma / 30;
         }
-        System.out.println(suma);
-        System.out.println(sred);
+        System.out.println("«Сумма трат за месяц составила " + suma + " рублей».");
+        System.out.println("Средняя сумма трат за месяц составила " + sred + " рублей");
     }
-    private static void task 4{
+    private static void task4 () {
+        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for ( int i = reverseFullName.length - 1; i >= 0; i--){
 
+        System.out.print(reverseFullName [i]);}
     }
 
     }
